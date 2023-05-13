@@ -1,0 +1,28 @@
+{
+  "name": "@mosaics/builders",
+  "version": "0.0.1-dev",
+  "description": "Powerful package to create any type of API object you need for discord.",
+  "main": "src/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "nodemon --exec babel-node src/index.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosaics2go/builders.git"
+  },
+  "keywords": ["discordjs", "framework", "discord", "bots"],
+  "author": "K1-1960",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mosaics2go/builders/issues"
+  },
+  "homepage": "https://github.com/mosaics2go/builders#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/preset-env": "^7.21.5"
+  }
+}
